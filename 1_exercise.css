@@ -1,0 +1,20 @@
+table,
+:first-child {
+  border-collapse: collapse;
+  text-indent: 10px;
+}
+th,
+tfoot {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #eef7ff;
+  background-color: #427fef;
+  border-bottom: #c4dcf3 solid 1px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #eef7ff;
+}
+tr {
+  border-bottom: #c4dcf3 solid 1px;
+}
